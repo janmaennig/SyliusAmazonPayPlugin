@@ -10,7 +10,7 @@ declare(strict_types=1);
 
 namespace BitBag\SyliusAmazonPayPlugin\Client;
 
-use AmazonPay\Client;
+use Amazon\Pay\API\Client;
 use Exception;
 use Sylius\Component\Core\Model\PaymentMethodInterface;
 

@@ -10,8 +10,8 @@ declare(strict_types=1);
 
 namespace spec\BitBag\SyliusAmazonPayPlugin\Resolver;
 
-use AmazonPay\Client;
-use AmazonPay\ResponseParser;
+use Amazon\Pay\API\Client;
+use spec\BitBag\SyliusAmazonPayPlugin\Parser\ResponseParser;
 use BitBag\SyliusAmazonPayPlugin\Client\AmazonPayApiClientInterface;
 use BitBag\SyliusAmazonPayPlugin\Resolver\PaymentStateResolver;
 use BitBag\SyliusAmazonPayPlugin\Resolver\PaymentStateResolverInterface;

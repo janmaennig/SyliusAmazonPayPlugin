@@ -10,7 +10,7 @@ declare(strict_types=1);
 
 namespace spec\BitBag\SyliusAmazonPayPlugin\Controller\Action;
 
-use AmazonPay\Client;
+use Amazon\Pay\API\Client;
 use BitBag\SyliusAmazonPayPlugin\Client\AmazonPayApiClientInterface;
 use BitBag\SyliusAmazonPayPlugin\Controller\Action\AmazonPayInitializeAction;
 use BitBag\SyliusAmazonPayPlugin\Resolver\PaymentMethodResolverInterface;

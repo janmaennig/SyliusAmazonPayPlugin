@@ -10,10 +10,10 @@ declare(strict_types=1);
 
 namespace spec\BitBag\SyliusAmazonPayPlugin\Controller\Action;
 
-use AmazonPay\Client;
-use AmazonPay\ResponseParser;
+use Amazon\Pay\API\Client;
 use BitBag\SyliusAmazonPayPlugin\Client\AmazonPayApiClientInterface;
 use BitBag\SyliusAmazonPayPlugin\Controller\Action\AddressSelectAction;
+use spec\BitBag\SyliusAmazonPayPlugin\Parser\ResponseParser;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Model\PaymentInterface;
